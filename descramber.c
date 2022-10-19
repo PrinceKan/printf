@@ -40,13 +40,14 @@ int descrambler(const char *format, form_stor f_list[], va_list arg_list)
 				else
 					return (-1);
 			}
-			i = i + 1;/*Updating i to skip format symbols*/
+			i = i + 1; /*Updating i to skip format symbols*/
 		}
 		else
 		{
-			funct_putchar(format[i]);/*call the fuction wich will write*/
+			funct_putchar(format[i]); /*call the fuction wich will write*/
 			chars_to_print++;
 		}
 	}
 	return (chars_to_print);
 }
+

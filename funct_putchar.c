@@ -1,6 +1,6 @@
 #include "main.h"
 
-/**
+/*
  * funct_putchar - writes a character to stdout
  * @a The character to print
  *
@@ -12,3 +12,4 @@ int _putchar(char a)
 {
 	return (write(1, &a, 1));
 }
+
