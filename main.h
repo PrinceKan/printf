@@ -18,10 +18,10 @@ struct format_store
 	char *form;
 	int (*funct)(va_list);
 };
-typedef struct format_store form_stor/*
-				      * works by creating an alias
-				      * for the data type struct convert
-				      */
+typedef struct format_store form_stor;/*
+				       * works by creating an alias
+				       * for the data type struct convert
+				       */
 
 /*protypes*/
 
