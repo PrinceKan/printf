@@ -27,3 +27,4 @@ int _printf(const char *format, ...)
 	va_end(arg_list);
 	return (chars_to_print);
 }
+

@@ -8,7 +8,8 @@
  * On error, -1 is returned, and errno is set appropriately
  */
 
-int funct_putchar(char a)
+int _putchar(char a)
 {
 	return (write(1, &a, 1));
 }
+
