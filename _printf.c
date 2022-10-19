@@ -13,6 +13,8 @@ int _printf(const char *format, ...)
 		{"c", funct_char},
 		{"s", funct_string},
 		{"%", funct_percent},
+		{"d", funct_intg},
+		{"i", funct_intg},
 		{NULL, NULL}
 	};
 
@@ -22,6 +24,7 @@ int _printf(const char *format, ...)
 		return (-1);
 
 	va_start(arg_list, format);
+
 	/*Calling descrambler function*/
 	chars_to_print = descrambler(format, f_list, arg_list);
 	va_end(arg_list);
