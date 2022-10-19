@@ -27,7 +27,7 @@ typedef struct format_store form_stor;/*
 
 int _printf(const char *format, ...);
 
-int descrambler(const char *format, form_stor Flist[] va_list arg_list);/*
+int descrambler(const char *format, form_stor f_list[], va_list arg_list);/*
 									 * function uses to identenfy
 									 * the type of argumument symbol
 									 * passed to a strimg into a function
