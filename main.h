@@ -93,4 +93,10 @@ int funct_HEX(va_list list);/*
 			     * hexadecimal format
 			     */
 
+	/*Function for Expand Task*/
+unsigned int base_span(unsigned int, int);
+char *str_revert(char *);
+void baseScore(char *str);
+char *memCopy(char *dest, char *src, unsigned int n);
+
 #endif
