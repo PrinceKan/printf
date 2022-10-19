@@ -50,4 +50,3 @@ int descrambler(const char *format, form_stor f_list[], va_list arg_list)
 	}
 	return (chars_to_print);
 }
-

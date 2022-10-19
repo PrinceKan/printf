@@ -101,4 +101,3 @@ int funct_HEX(va_list list);/*
 			     */
 
 #endif
-

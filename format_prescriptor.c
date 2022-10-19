@@ -38,4 +38,3 @@ int funct_percent(__attribute__((unused))va_list list)
 	funct_putchar('%');
 	return (1);
 }
-
