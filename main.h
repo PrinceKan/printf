@@ -19,19 +19,19 @@ struct format_store
 	int (*funct)(va_list);
 };
 typedef struct format_store form_stor;/*
-				       * works by creating an alias
-				       * for the data type struct convert
-				       */
+				      * works by creating an alias
+				      * for the data type struct convert
+				      */
 
 /*protypes*/
 
 int _printf(const char *format, ...);
 
 int descrambler(const char *format, form_stor f_list[], va_list arg_list);/*
-									   * function uses to identenfy
-									   * the type of argumument symbol
-									   * passed to a strimg into a function
-									   */
+									 * function uses to identenfy
+									 * the type of argumument symbol
+									 * passed to a strimg into a function
+									 */
 
 int funct_putchar(char);/*printing a character*/
 
@@ -77,13 +77,6 @@ int unsign_intg(va_list);/*
 			  * assigning the next argument in that list to
 			  * an unsigned int variable
 			  */
-
-int unsign_intg(va_list);/*
-			  * function that takes a list of arguments and
-			  * assigning the next argument in that list to
-			  * an unsigned int variable
-			  */
-
 
 int funct_oct(va_list list);/*
 			     * converting the number to octal and then
