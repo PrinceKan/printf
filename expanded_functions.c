@@ -40,7 +40,7 @@ void baseScore(char *str)
 	int i;
 
 	for (i = 0; str[i] != '\0'; i++)
-		funct_pputchar(str[i]);
+		funct_putchar(str[i]);
 }
 
 /**
