@@ -39,3 +39,15 @@ int funct_percent(__attribute__((unused))va_list list)
 	return (1);
 }
 
+/**
+ * funct_intg - Prints an integer
+ * @list: list of arguments
+ * Return: Will return the amount of characters printed.
+ */
+int funct_intg(va_list list)
+{
+	int num_length;
+
+	num_length = funct_num(list);
+	return (num_length);
+}

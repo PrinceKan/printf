@@ -12,7 +12,9 @@ int _printf(const char *format, ...)
 	form_stor f_list[] = {
 		{"c", funct_char},
 		{"s", funct_string},
-		{"%", funct_percent}
+		{"%", funct_percent},
+		{"d", funct_intg},
+		{"i", funct_intg}
 	};
 
 	va_list arg_list;
