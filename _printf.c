@@ -14,6 +14,7 @@ int _printf(const char *format, ...)
 		{"s", funct_string},
 		{"%", funct_percent},
 		{"d", funct_intg},
+		{"b", funct_bin},
 		{"i", funct_intg}
 	};
 
