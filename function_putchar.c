@@ -1,10 +1,10 @@
 #include "main.h"
 
-/*
- *  funct_putchar - writes a character to stdout
- * @a The character to print
+/**
+ * funct_putchar - writes a character to stdout
+ * @a: The character to print
  *
- * Return On success 1.
+ * Return: On success 1.
  * On error, -1 is returned, and errno is set appropriately
  */
 

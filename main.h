@@ -97,5 +97,7 @@ unsigned int base_span(unsigned int, int);
 char *str_revert(char *);
 void baseScore(char *str);
 char *memCopy(char *dest, char *src, unsigned int n);
+int unsignedNumberPrinter(unsigned int);
+int Hex_case_checker(int num, char x);
 
 #endif

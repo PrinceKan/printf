@@ -11,7 +11,7 @@ int funct_char(va_list list)
 }
 
 /**
- * print_string - Prints a string
+ * funct_string - Prints a string
  * @list: list of arguments
  * Return: Will return the amount of characters printed.
  */
@@ -50,4 +50,23 @@ int funct_intg(va_list list)
 
 	num_length = funct_num(list);
 	return (num_length);
+}
+
+/**
+* unsign_intg - Prints Unsigned integers
+* @list: List of all of the argumets
+* Return: a count of the numbers
+*/
+int unsign_intg(va_list list)
+{
+	unsigned int num;
+
+	num = va_arg(list, unsigned int);
+
+	if (num == 0)
+		return (unsignedNumberPrinter(num));
+
+	if (num < 1)
+		return (-1);
+	return (unsignedNumberPrinter(num)); /*From function helper*/
 }

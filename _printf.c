@@ -15,7 +15,11 @@ int _printf(const char *format, ...)
 		{"%", funct_percent},
 		{"d", funct_intg},
 		{"i", funct_intg},
-		{"b", funct_bin}
+		{"b", funct_bin},
+		{"u", unsign_intg},
+		{"o", funct_oct},
+		{"x", funct_hex},
+		{"X", funct_HEX}
 	};
 
 	va_list arg_list;
